@@ -1,0 +1,32 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Orbitron', sans-serif;
+}
+.card {
+    max-width: 350px;
+    margin:auto;
+    background: rgba(0, 0, 50, 0.8);
+    border: 2px solid #00bfff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #00bfff;
+}
+button {
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00bfff;
+}
+button:active {
+    box-shadow: 0 0 20px #00bfff;
+}
+#display {
+    background: rgba(0, 0, 50, 0.8);
+    border: 2px solid #00bfff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00bfff;
+    color: #ffffff;
+    font-size: 24px;
+}
